@@ -1,0 +1,376 @@
+<html>
+
+ <head>
+
+	
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="css/estilo.css"> <!-- Para llamar al css y que se aplique en nuestro html -->
+            <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+            <script type="text/javascript" src="js/logica.js"></script>
+            <meta name="viewport" content="width-device-width, initial-scale=1">
+		
+
+      <title>Exit Home</title>
+            
+
+      </head>
+
+      <body>
+
+     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand/logo -->
+      <a class="navbar-brand" href="Index.html">Mundo Exit</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+      </button>
+  <!-- Links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+       <ul class="navbar-nav">
+             <li class="nav-item active">
+                  <a class="nav-link" href="Index.html">Home</a>
+             </li>
+             <li class="nav-item">
+                  <a class="nav-link" href="Exit2.html">Registro</a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" href="Exit3.html">Popular Manga</a>
+             </li>
+      </ul>
+      </nav>
+
+      <div class="container-fluid">
+             <h1 class="Mejia">Te gusta el Anime?</h1>
+      </div>
+      <div class="container">
+            <br>
+            <div class="alert alert-danger">
+                  <p>Pantalla de mensaje...</p>
+                        <button onclick="scrollWin(0, 5800)">va abajo al Carrito</button>
+                        <br>
+                        <br>
+            </div>
+      </div>
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+ <!-- agregar en el Carusel a My Hero Academia, bleach, Dragon Ball Super -->
+ <!-- diseñar la pestañ de los popular manga, minimo 8 y crear la pestaña de cada uno de los mangas individuales -->
+<!-- presentar el manga del dia -->
+<!-- creas generos , PENSARLO BIEN PORQUE PUEDE A SER MUY TARDADO E INFINIDAD DE CODIGO -->
+<!-- buscar como hacer la barra de search-->
+
+            <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <img src="220.png" class="mx-auto d-block" alt="Naruto">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="carousel-caption">
+                        <h3>Naruto</h3>
+                        <p>Naruto, un aprendiz de ninja de la Aldea Oculta de Konoha es un chico travieso que desea llegar a ser el Hokage de la aldea para demostrar a todos lo que vale. $9.99</p>
+                        <br>
+                        <button type="button" onclick="carrito()" class="btn btn-danger">Agrega al Carrito</button>
+                        <br>
+                         <a href="Exit1.1.html" class="btn btn-info" role="button">Ver Manga</a>
+                        </div>
+      
+                         <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                        </a>
+                  </div>
+                  <div class="carousel-item">
+                        <img src="STEINSGATE.jpg" class="mx-auto d-block" alt="Steins Gate">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="carousel-caption">
+                        <h3>Steins Gate</h3>
+                        <p>La historia de "Steins;Gate" toma lugar en Akihabara y trata acerca de un grupo de amigos que modificaron su microondas conviertiendolo en un dispositivo que puede mandar mensajes de texto al pasado. $9.99</p>
+                        <br>
+                        <button type="button " onclick="carrito2()" class="btn btn-danger">Agrega al Carrito</button>
+                        <br>
+                         <a href="Exit1.2.html" class="btn btn-info" role="button">Ver Manga</a>
+                        </div>
+      
+                          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                        </a>
+                  </div>
+
+                  <div class="carousel-item">
+                        <img src="towerofgod.jpg" class="mx-auto d-block" alt="Tower of God">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="carousel-caption">
+                        <h3>Tower of God</h3>
+                        <p> Tower of God se centra en un niño llamado Twenty-Fifth Bam, que ha pasado la mayor parte de su vida atrapado debajo de una enorme y misteriosa Torre, con solo su amiga intima, Rachel, para hacerle compañía. $9.99</p>
+                        <br>
+                        <button type="button" onclick="carrito3()" class="btn btn-danger">Agrega al Carrito</button>
+                        <br>
+                         <a href="Exit1.3.html" class="btn btn-info" role="button">Ver Manga</a>
+                        </div>
+      
+                          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                        </a>
+                  </div>
+
+                  <div class="carousel-item">
+                        <img src="heero.jpg" class="mx-auto d-block" alt="My Hero Academia">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="carousel-caption">
+                        <h3>My Hero Academia</h3>
+                        <p>Las personas no nacen igual. El protagonista de esta historia es uno de esos casos raros que nacen sin superpoderes, pero esto no le impedirá perseguir su sueño: ser un gran héroe como el legendario All-Might. $9.99</p>
+                        <br>
+                        <button type="button" onclick="carrito4()" class="btn btn-danger">Agrega al Carrito</button>
+                        <br>
+                         <a href="Exit1.4.html" class="btn btn-info" role="button">Ver Manga</a>
+                        </div>
+      
+                          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                        </a>
+                  </div>
+
+                   <div class="carousel-item">
+                        <img src="mugetsu.jpg" class="mx-auto d-block" alt="Bleach">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="carousel-caption">
+                        <h3>Bleach</h3>
+                        <p>Kurosaki Ichigo es un estudiante de instituto de 15 años, que tiene una peculiaridad: es capaz de ver, oír y hablar con fantasmas. Pero no sabe hasta dónde puede abarcar la clasificación de espíritus, ni lo que conlleva el saberlo. $9.99</p>
+                        <br>
+                        <button type="button" onclick="carrito5()"  class="btn btn-danger">Agrega al Carrito</button>
+                        <br>
+                         <a href="Exit1.5.html" class="btn btn-info" role="button">Ver Manga</a>
+                        </div>
+      
+                          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                        </a>
+                  </div>
+
+                  <div class="carousel-item">
+                        <img src="kill.jpg" class="mx-auto d-block" alt="Akame ga Kill">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="carousel-caption">
+                        <h3>Akame ga Kill</h3>
+                        <p>La historia nos lleva a través de las aventuras de Tatsumi, un joven boxeador que viajó a la capital imperial para unirse al ejército. $9.99</p>
+                        <br>
+                        <button type="button" onclick="carrito6()" class="btn btn-danger">Agrega al Carrito</button>
+                        <br>
+                         <a href="Exit1.6.html" class="btn btn-info" role="button">Ver Manga</a>
+                        </div>
+      
+                          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                        </a>
+                  </div>
+            </div>
+
+
+      </div>
+
+                   <div class="container-fluid">
+                         <h3 class="Mejia2">Sos fanatico de la Shonen Jump?</h3>
+                             <br>
+                        <img class="img-fluid" src="shonen.jpg" alt="Shonen Force"> 
+                  </div>
+
+<!-- incluir 4 new mangas en new comings -->
+                  <div class="container-fluid">
+                    <h3 class="Mejia2">News</h3>
+                    <br>
+                    <p class="Mejia3">New Manga coming soon</p>
+                  </div>
+                    
+                  <div class="row">
+                  <div class="col-6" style="background-color:black;">
+                      <div class="card bg-dark text-white">
+                      <img class="img-fluid" src="Season1.jpeg">
+                      <div class="card-body">
+                      <span>Tower of God</span> 
+                      <h3 class="card-title">Proximamente</h3>
+                         <br>
+                         <a href="Exit1.7.html" class="btn btn-info" role="button">Ver Manga</a>
+                   </div>
+                  </div>
+            </div>
+
+
+                  <div class="col-6" style="background-color:black;">
+                      <div class="card bg-dark text-white">
+                      <img class="img-fluid" src="attackontitan.jpg">
+                      <span>Attack on Titan</span>
+                      <h3 class="Mejia4">Proximamente</h3> 
+                      <br>
+                         <a href="Exit1.8.html" class="btn btn-info" role="button">Ver Manga</a>
+                  </div>
+            </div>
+                  </div>
+
+                  <div class="row">
+                  <div class="col-6" style="background-color:black;">
+                        <div class="card bg-dark text-white">
+                        <img class="img-fluid" src="dr.png">
+                        <span>Dr. Stone</span>
+                      <h3 class="Mejia4">Proximamente</h3> 
+                         <br>
+                         <a href="Exit1.9.html" class="btn btn-info" role="button">Ver Manga</a>
+                  </div>
+            </div>
+
+                  <div class="col-6" style="background-color:black;">
+                      <div class="card bg-dark text-white">
+                      <img class="img-fluid" src="black clover.jpg">
+                      <span>Black Clover</span>
+                      <h3 class="Mejia4">Proximamente</h3>
+                         <br>
+                         <a href="Exit1.10.html" class="btn btn-info" role="button">Ver Manga</a>
+                  </div>
+            </div>
+                  </div>
+
+
+                  <div class="row">
+                      <div class="col-6" style="background-color:black;">
+                      <div class="card bg-dark text-white">
+                      <img class="img-fluid" src="neverland.png">
+                      <span>The Promised Neverland</span> 
+                      <h3 class="Mejia4">Proximamente</h3>
+                         <br>
+                         <a href="Exit1.11.html" class="btn btn-info" role="button">Ver Manga</a>
+                  </div>
+            </div>
+
+                  <div class="col-6" style="background-color:black;">
+                      <div class="card bg-dark text-white">
+                      <img class="img-fluid" src="shield.jpg">
+                      <span>he rising of the Sheild Hero</span>
+                      <h3 class="Mejia4">Proximamente</h3> 
+                         <br>
+                         <a href="Exit1.12.html" class="btn btn-info" role="button">Ver Manga</a>
+                  </div>
+            </div>
+                  </div>
+
+                  <div class="row">
+                  <div class="col-6" style="background-color:black;">
+                      <div class="card bg-dark text-white">
+                      <img class="img-fluid" src="boruto.jpg">
+                      <span>Boruto</span>
+                      <h3 class="Mejia4">Proximamente</h3> 
+                         <br>
+                         <a href="Exit1.13.html" class="btn btn-info" role="button">Ver Manga</a>
+                  </div>
+            </div>
+
+                      <div class="col-6" style="background-color:black;">
+                      <div class="card bg-dark text-white">
+                      <img class="img-fluid" src="Super.png">
+                      <span>Dragon Ball Super</span>
+                      <h3 class="Mejia4">Proximamente</h3>
+                         <br>
+                         <a href="Exit1.14.html" class="btn btn-info" role="button">Ver Manga</a>
+                  </div>
+            </div>
+                  </div>
+
+                    <div class="form colorf form1">
+                        <h3 class="Mejia2">Carrito de Compras</h3>
+                        <br>
+                        <p class="color" id="Pizarra"></p>
+                        <br>
+                        <p class="color" id="Pizarra2"></p>
+                        <br>
+                        <button onclick="BorrarCarrito();" >Borrar</button>
+
+                  </div>
+
+                  <div class="container">
+                    <button class="align-center" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                    <input type="button" id="botonPago" value="Pago"/>
+                  </div>
+
+
+
+            </body>
+
+            </html>
+
